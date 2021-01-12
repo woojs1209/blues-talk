@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+:root {
+  font-family: "Yusei Magic", sans-serif;
+  --main-color: #0a4595;
+}
+
+input:focus {
+  outline: none;
+}
