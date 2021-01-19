@@ -4,6 +4,8 @@
   width: 100%;
   position: fixed;
   top: 0;
+  background-color: white;
+  padding: 20px;
 }
 
 .status-bar__column {

@@ -5,12 +5,22 @@
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
+@import "component/badge.css";
+@import "component/icons-row.css";
+@import "component/alt-screen-header.css";
 
 /* Screen */
 @import "screen/login.css";
-@import "screen/display-link.css";
+@import "screen/freinds.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+@import "screen/more.css";
 
 body {
   color: #2e363e;
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 20px;
 }

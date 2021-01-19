@@ -1,0 +1,30 @@
+.suggestions {
+  border-top: var(--main-border);
+  margin-top: 48px;
+}
+
+.suggestions__header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.suggestions__icons {
+  display: flex;
+}
+.suggestions__icons__icon {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.suggestions__icons__more {
+  background-color: var(--main-color);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  border-radius: 9px;
+  margin-bottom: 5px;
+}

@@ -3,6 +3,8 @@
 :root {
   font-family: "Yusei Magic", sans-serif;
   --main-color: #0a4595;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --gray: rgba(0, 0, 0, 0.3);
 }
 
 input:focus {

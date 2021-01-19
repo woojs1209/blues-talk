@@ -1,0 +1,35 @@
+.badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  background-color: tomato;
+  position: absolute;
+}
+
+.badge__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+}
+
+.cog__notification {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.icons-row__dot {
+  position: absolute;
+  right: -3px;
+  top: -10px;
+}

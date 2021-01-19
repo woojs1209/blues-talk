@@ -1,6 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .user-component__column:first-child {
@@ -11,6 +12,10 @@
 .user-component__column:nth-child(2) {
   color: rgba(0, 0, 0, 0.2);
   padding: 10px;
+}
+
+.user-component .badge {
+  margin-top: 5px;
 }
 
 .user-component__column__avatar {
@@ -43,7 +48,7 @@
 .user-component__column__subtitle {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.5);
-  margin: 3px;
+  margin: 5px;
 }
 
 .friends-screen__channel-header {
@@ -52,4 +57,17 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3);
   padding: 10px;
+}
+
+.user-component__column__text div {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column__text div i {
+  color: tomato;
+}
+
+.user-component__column > i {
+  color: rgba(0, 0, 0, 0.7);
 }
