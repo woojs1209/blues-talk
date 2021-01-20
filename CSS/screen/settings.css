@@ -1,0 +1,26 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  opacity: 0.8;
+}
+
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: var(--main-border);
+  padding: 20px 0;
+}
+
+.settings__title i {
+  margin-right: 8px;
+}
+
+.settings__title span {
+  color: black;
+}
+
+.settings__subtitle {
+  color: rgba(0, 0, 0, 0.6);
+}

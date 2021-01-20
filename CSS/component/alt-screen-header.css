@@ -1,6 +1,33 @@
 .alt-screen {
-  margin-top: 80px;
+  margin-top: 55px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
+}
+
+.alt-screen__column {
+  width: 33%;
+  display: flex;
+}
+
+.alt-screen__column:first-child {
+  margin-right: auto;
+}
+
+.alt-screen__column:nth-child(2) {
+  justify-content: center;
+}
+
+.alt-screen__column:last-child {
+  margin-left: auto;
+  justify-content: flex-end;
+}
+
+.alt-screen__column span {
+  font-size: 33px;
+}
+
+.alt-screen__column a {
+  font-size: 30px;
 }

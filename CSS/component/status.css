@@ -5,7 +5,8 @@
   position: fixed;
   top: 0;
   background-color: white;
-  padding: 20px;
+  padding: 20px 5px;
+  box-sizing: border-box;
 }
 
 .status-bar__column {
@@ -23,7 +24,7 @@
 
 .status-bar__column:last-child {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
