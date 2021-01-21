@@ -10,3 +10,27 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
+
+@keyframes hideShow {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: hideShow 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}

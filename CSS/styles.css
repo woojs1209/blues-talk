@@ -8,10 +8,11 @@
 @import "component/badge.css";
 @import "component/icons-row.css";
 @import "component/alt-screen-header.css";
+@import "component/no-mobile.css";
 
 /* Screen */
 @import "screen/login.css";
-@import "screen/freinds.css";
+@import "screen/friends.css";
 @import "screen/chats.css";
 @import "screen/find.css";
 @import "screen/more.css";
@@ -20,7 +21,7 @@
 
 body {
   color: #2e363e;
-  height: 1000vh;
+  height: 150vh;
 }
 
 .main-screen {
