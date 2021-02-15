@@ -10,7 +10,6 @@
 
 @keyframes showDownChat {
   from {
-    opacity: 0;
     transform: translateY(30px);
   }
   to {
@@ -31,7 +30,11 @@
   border-radius: 30px;
   padding: 5px 10px;
   margin: 15px 0;
-  animation: showDownChat 1s ease-in-out;
+}
+
+.today-chat {
+  opacity: 0;
+  animation: showDownChat 1s ease-in-out forwards;
 }
 
 .chat-screen__avatar {
@@ -62,7 +65,7 @@
   justify-content: flex-end;
   opacity: 0;
   animation: showLeftChat 0.3s ease-in-out forwards;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 
 .message-own .message-row__bubble {
@@ -91,11 +94,11 @@
   }
 }
 
-.message-you,
-.message-row img {
+.today-message,
+.today-message-row img {
   opacity: 0;
   animation: showRightChat 0.3s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 2s;
 }
 
 .message-row__title {
@@ -124,6 +127,11 @@
   color: var(--gray);
   font-size: 11px;
   margin: 0 5px;
+}
+
+.message-img {
+  width: 200px;
+  height: 200px;
 }
 
 .reply {
